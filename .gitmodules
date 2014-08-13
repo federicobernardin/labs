@@ -1,0 +1,4 @@
+[submodule "typo3conf/ext/t3registration"]
+	path = typo3conf/ext/t3registration
+	url = https://federicobernardin@github.com/federicobernardin/t3registration.git
+	branch = 2.0

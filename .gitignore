@@ -1,0 +1,51 @@
+#########################
+# TYPO3v4/Core.git
+# global ignore file
+########################
+# ignoring temporary files (left by e.g. vim)
+# ignoring by common IDE's used directories/files
+# dont ignore .rej and .orig as we want to see/clean files after conflict resolution
+#
+# if you feel this file needs adaption please report on http://forge.typo3.org/issues/13627
+#
+# for local exclude patterns please edit .git/info/exclude
+#
+*~
+*.bak
+*.idea
+*.project
+*.swp
+.buildpath
+.cache
+.project
+.session
+.settings
+.TemporaryItems
+.webprj
+.DS_Store
+nbproject
+
+.vagrant
+.idea
+.travis
+.travis.yml
+uploads
+fileadmin/user_upload
+fileadmin/_temp_
+typo3temp
+*_CACHED_*
+orig_*
+deprecation*.log
+typo3conf/localconf.php
+typo3conf/LocalConfiguration.php
+typo3conf/realurl_configuration.php
+typo3conf/PackageStates.php
+typo3conf/l10n
+typo3conf/ext/extension_builder
+fileadmin/_processed_
+FIRST_INSTALL
+ENABLE_INSTALL_TOOL
+
+typo3conf/ext/uncache
+typo3conf/ext/schemaker
+typo3conf/ext/flll
